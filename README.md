@@ -21,6 +21,9 @@ Implementation Details: We implemented the A* algorithm with a heuristic that ca
 Problem Description: Arranging 100 guests at 10 tables with specific seating constraints.
 Approach: We defined a SAT formula that models the problem, considering the constraints about which guests can or cannot sit at the same table.
 
+### Sudoku Solver
+Solving Sudoku by applying Constraint Programming with Google's OR-Tools. The model sets up variables for each cell, enforces unique number constraints on rows, columns, and 3x3 subgrids, and utilizes a CP solver to find valid solutions or report if the puzzle is unsolvable.
+
 ## How to Use
 
 1. Clone the repository to your local machine:
