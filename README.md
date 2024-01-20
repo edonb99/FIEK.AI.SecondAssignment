@@ -24,6 +24,10 @@ Approach: We defined a SAT formula that models the problem, considering the cons
 ### Sudoku Solver
 Solving Sudoku by applying Constraint Programming with Google's OR-Tools. The model sets up variables for each cell, enforces unique number constraints on rows, columns, and 3x3 subgrids, and utilizes a CP solver to find valid solutions or report if the puzzle is unsolvable.
 
+### Machine learning task
+
+Balitmore salary prediction using XGBoost, LightGBM and CatBoost. Datset from https://www.kaggle.com/code/pushpakhinglaspure/balitmore-salary-prediction-ipynb/notebook
+
 ## How to Use
 
 1. Clone the repository to your local machine:
